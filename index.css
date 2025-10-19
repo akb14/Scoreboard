@@ -1,0 +1,47 @@
+@font-face {
+   font-family: Cursed; /* set name */
+   src: url(/CursedTimerUlil-Aznm.ttf); /* url of the font */
+}
+
+body {
+    background-color: #1B244A;
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    font-family: cursed;
+    font-weight: regular;
+    width: 155px;
+    font-size: 90px;
+    text-align: center;
+    background-color: black;
+    color: red;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+h3 {
+    color: white;
+    font-size: 40px;
+    font-family: verdana;
+    font-weight: bold;
+    line-height: 35.9px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    font-family: cursed;
+    background: none;
+    font-size: 18px;
+    color: #9AABD8;
+    height: 45px;
+    width: 45px;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: #9AABD8;
+}
